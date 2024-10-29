@@ -1,13 +1,12 @@
-// Projects.js
 import React from 'react';
 
-function Projects() {
+function Contact() {
   return (
     <div>
-      <h1>Projetos</h1>
+      <h1>Contato</h1>
       <p>Esta é a página de projetos.</p>
     </div>
   );
 }
 
-export default Projects;
+export default Contact;

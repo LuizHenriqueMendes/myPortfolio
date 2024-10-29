@@ -1,8 +1,11 @@
 header {
-    background-color: #5d4037; /* Azul esverdeado */
+    background-color: #5d4037; /* Marrom escuro */
     width: 100%;
-    padding: 20px 40px; /* Adiciona um espaço à esquerda e à direita */
+    padding: 20px 40px;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
@@ -10,7 +13,32 @@ header {
   
   header h1 {
     margin: 0;
-    color: #f9f4ef ;
+    color: white;
     text-align: left;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 30px; /* Espaço entre os botões */
+  }
+  
+  .nav-buttons a {
+    color: #f9f4ef; /* Branco para maior contraste */
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px; /* Mais espaçamento para melhorar o visual */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .nav-buttons a:hover {
+    background-color: rgb(14, 39, 14); /* Azul petróleo para destacar o botão */
+    color: #ffffff;
+    transform: scale(1.1); /* Efeito de leve aumento ao passar o mouse */
+  }
+  
+  .nav-buttons a:active {
+    transform: scale(0.95); /* Efeito de clique */
   }
   

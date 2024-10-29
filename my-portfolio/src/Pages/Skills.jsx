@@ -1,13 +1,13 @@
 // Projects.js
 import React from 'react';
 
-function Projects() {
+function Skills() {
   return (
     <div>
-      <h1>Projetos</h1>
+      <h1>Habilidades</h1>
       <p>Esta é a página de projetos.</p>
     </div>
   );
 }
 
-export default Projects;
+export default Skills;
