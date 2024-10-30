@@ -1,0 +1,21 @@
+/* Skills.css */
+.skills-container {
+    padding: 20px 10px; /* Ajusta o espaçamento ao redor do conteúdo */
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .skills-title {
+    font-size: 2rem;
+    color: #5d4037;
+    margin-bottom: 20px;
+  }
+  
+/* Skills.css */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste automático conforme o espaço */
+    gap: 20px;
+  }
+  
