@@ -4,9 +4,8 @@ import '../Styles/Home.css';
 
 function Home() {
   return (
-    <div className="home-container">
-      
-      
+    
+    <div className="home-container">  
       <h1 className="welcome-text">Bem-vindo(a)!</h1>
       <div className="home-content">
         <div className="home-about">

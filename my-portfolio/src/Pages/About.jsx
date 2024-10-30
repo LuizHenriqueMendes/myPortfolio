@@ -1,14 +1,20 @@
 import React from 'react';
 import Timeline from '../Components/Timeline';
+import '../Styles/About.css'
 
 function About() {
   return (
+
     <div>
-      <h1>Sobre Mim</h1>
-      <p>Nesta página você irá acompanhar minha trajetória ao longo da vida, 
-      aonde estudei, as coisas que já fiz e meus planos!</p>
-      <Timeline />
+        <div className="about-content">
+          <h1 className="about-title">Sobre Mim</h1>
+          <div className="about-text">
+          
+          <Timeline />
+          </div>
+        </div>
     </div>
+    
   );
 }
 
