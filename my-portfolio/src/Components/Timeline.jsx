@@ -28,7 +28,7 @@ function Timeline() {
       </div>
 
       <div className="timeline-item">
-        <div className="timeline-year">9/2020</div>
+        <div className="timeline-year">09/2020</div>
         <div className="timeline-content">
           <div className="timeline-image">
             <img src={logoUN} alt="Evento 1" />

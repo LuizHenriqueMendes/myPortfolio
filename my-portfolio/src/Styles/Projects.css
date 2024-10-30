@@ -1,38 +1,37 @@
 /* Projects.css */
 .projects-container {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .projects-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 40px;
-    color: #5d4037;
-  }
-  
-  .project-item {
-    margin-bottom: 40px;
-    padding: 20px;
-    background-color: #f9f4ef;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .project-name {
-    font-size: 1.5rem;
-    color: #5d4037;
-  }
-  
-  .project-description {
-    font-size: 1rem;
-    margin: 15px 0;
-    color: #333;
-  }
-  
-  .project-video {
-    display: flex;
-    justify-content: center;
-  }
-  
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #5d4037;
+}
+
+.project-item {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f9f4ef;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-name {
+  font-size: 1.5rem;
+  color: #5d4037;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin: 15px 0;
+  color: #333;
+}
+
+.project-video {
+  display: flex;
+  justify-content: center;
+}

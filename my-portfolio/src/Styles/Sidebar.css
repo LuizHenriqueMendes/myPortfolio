@@ -17,7 +17,8 @@
 .sidebar-title {
   font-size: 2rem; /* Nome maior */
   margin: 0;
-  text-align: center;
+  margin-left: 20px;
+  text-align: left;
   margin-bottom: 60px; /* Mais espaço abaixo do nome */
 }
 
@@ -44,6 +45,6 @@
 }
 
 .sidebar-nav a:hover {
-  background-color: #2b1f01; /* Azul petróleo para destaque */
+  background-color: #140f01; /* Azul petróleo para destaque */
   color: #ffffff;
 }
