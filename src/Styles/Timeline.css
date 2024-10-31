@@ -19,11 +19,11 @@
 .timeline::after {
   content: '';
   position: absolute;
-  left: 19px; /* Centraliza a bolinha na linha */
+  left: 19px;
   top: 0;
   width: 16px;
   height: 16px;
-  background-color: #5d4037; /* Cor da bolinha inicial */
+  background-color: #5d4037;
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
@@ -77,22 +77,23 @@
   .timeline {
     margin: 10px;
     padding: 10px 0;
-    max-width: 100%; /* Ajusta para ocupar a largura total em telas pequenas */
+    max-width: 60%; /* Ajusta para ocupar a largura total em telas pequenas */
   }
 
   .timeline::before {
-    left: 10px; /* Ajusta a posição da linha */
+    left: 15px; /* Ajusta a posição da linha */
   }
 
   .timeline-item {
     flex-direction: column; /* Alinha os itens em coluna em dispositivos móveis */
     align-items: flex-start;
-    margin-left: 20px; /* Afasta o item da borda esquerda */
+    margin-left: 40px; /* Afasta o item da borda esquerda */
   }
 
   .timeline-year {
     position: static; /* Remove o posicionamento absoluto */
     width: auto;
+    margin-left: -60px;
     padding: 5px 10px;
     margin-bottom: 10px; /* Adiciona espaço abaixo do ano */
     text-align: center;
@@ -100,6 +101,7 @@
 
   .timeline-content {
     margin-left: 0; /* Remove a margem esquerda */
+    margin-top: -1px;
     padding: 15px; /* Aumenta o padding para melhorar a aparência em telas menores */
     width: 100%;
   }
@@ -114,4 +116,11 @@
     font-size: 0.9rem; /* Ajusta o tamanho da fonte */
     text-align: justify; /* Alinha o texto de forma justificada */
   }
+
+  .timeline::after{
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+
+
 }

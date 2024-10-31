@@ -1,33 +1,32 @@
 .about-title {
-    color: #f9f4ef;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #5d4037;
-    padding: 10px;
-    max-width: 300px;
-    border-radius: 20px;
-    margin-left: 35%;
+  color: #f9f4ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5d4037;
+  padding: 10px;
+  max-width: 300px;
+  border-radius: 20px;
+  margin-left: 35%;
+}
+
+.about-text {
+  color: #5d4037;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsivo para telas menores, como celulares */
+@media (max-width: 768px) {
+  .about-title {
+    max-width: 60%; /* Ajusta largura para ocupar mais espaço na tela */
+    margin-left: 25%; /* Centraliza na tela */
+    padding: 8px; /* Reduz padding para telas menores */
   }
-  
+
   .about-text {
-    color: #5d4037;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 1rem; /* Reduz tamanho da fonte para melhor exibição */
+    padding: 5px; /* Adiciona padding interno se necessário */
   }
-  
-  /* Responsivo para telas menores, como celulares */
-  @media (max-width: 768px) {
-    .about-title {
-      max-width: 90%; /* Ajusta largura para ocupar mais espaço na tela */
-      margin-left: 5%; /* Centraliza na tela */
-      padding: 8px; /* Reduz padding para telas menores */
-    }
-  
-    .about-text {
-      font-size: 1rem; /* Reduz tamanho da fonte para melhor exibição */
-      padding: 5px; /* Adiciona padding interno se necessário */
-    }
-  }
-  
+}
