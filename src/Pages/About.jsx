@@ -1,26 +1,21 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ResponsiveNav from '../Components/ResponsiveNav';
-import Home from '../Pages/Home';
-import About from '../Pages/About';
-import Projects from '../Pages/Projects';
-import Skills from '../Pages/Skills';
-import Contact from '../Pages/Contact';
+import Timeline from '../Components/Timeline';
+import '../Styles/About.css'
 
-function App() {
+function About() {
   return (
-    <Router>
-      <ResponsiveNav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+
+    <div>
+        <div className="about-content">
+          <h1 className="about-title">Sobre Mim</h1>
+          <div className="about-text">
+          
+          <Timeline />
+          </div>
+        </div>
+    </div>
+    
   );
 }
 
-export default App;
+export default About;
