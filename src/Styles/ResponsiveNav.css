@@ -1,0 +1,20 @@
+/* Exibe o Sidebar apenas em telas grandes */
+.sidebar-desktop {
+    display: block;
+  }
+  
+  .header-mobile {
+    display: none;
+  }
+  
+  /* Exibe o Header apenas em telas menores */
+  @media (max-width: 768px) {
+    .sidebar-desktop {
+      display: none;
+    }
+    
+    .header-mobile {
+      display: flex;
+    }
+  }
+  

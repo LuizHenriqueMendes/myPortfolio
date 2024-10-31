@@ -1,7 +1,7 @@
-header {
-  background-color: #5d4037; /* Marrom escuro */
+.header {
+  background-color: #5d4037;
   width: 100%;
-  padding: 20px 40px;
+  padding: 20px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -9,64 +9,28 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000; /* Para garantir que o header fique acima do conteúdo */
+  color: #f9f4ef;
 }
 
-header h1 {
+.header h1 {
   margin: 0;
-  color: white;
-  text-align: left;
-  font-size: 1.5rem; /* Ajuste para tamanho menor */
+  font-size: 1.5rem;
 }
 
 .nav-buttons {
   display: flex;
-  gap: 30px; /* Espaço entre os botões */
+  gap: 15px;
 }
 
 .nav-buttons a {
-  color: #f9f4ef; /* Branco para maior contraste */
+  color: #f9f4ef;
   text-decoration: none;
   font-size: 1rem;
-  padding: 10px 20px; /* Mais espaçamento para melhorar o visual */
+  padding: 10px;
   border-radius: 5px;
-  transition: all 0.3s ease;
-  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 .nav-buttons a:hover {
-  background-color: rgb(14, 39, 14); /* Azul petróleo para destacar o botão */
-  color: #ffffff;
-  transform: scale(1.1); /* Efeito de leve aumento ao passar o mouse */
-}
-
-.nav-buttons a:active {
-  transform: scale(0.95); /* Efeito de clique */
-}
-
-/* Responsivo para telas menores, como celulares */
-@media (max-width: 768px) {
-  header {
-    padding: 10px 20px; /* Reduz o padding em telas menores */
-    flex-direction: column; /* Alinha os itens verticalmente */
-    align-items: flex-start; /* Alinha o conteúdo no início */
-  }
-
-  header h1 {
-    font-size: 1.2rem; /* Reduz o tamanho da fonte do título */
-    margin-bottom: 10px; /* Adiciona espaço entre o título e os botões */
-  }
-
-  .nav-buttons {
-    flex-direction: column; /* Alinha os botões verticalmente */
-    width: 100%; /* Ocupa a largura total do header */
-    gap: 10px; /* Reduz o espaço entre os botões */
-  }
-
-  .nav-buttons a {
-    font-size: 1rem; /* Ajusta o tamanho da fonte */
-    padding: 8px 10px; /* Menor padding nos botões */
-    text-align: center; /* Centraliza o texto dos botões */
-    width: 100%; /* Cada botão ocupa toda a largura disponível */
-  }
+  background-color: #140f01;
 }
