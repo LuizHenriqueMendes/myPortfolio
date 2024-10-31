@@ -1,4 +1,3 @@
-/* App.css */
 .app-container {
   display: flex;
 }
@@ -10,4 +9,17 @@
   background-color: #f9f4ef;
   min-height: 100vh;
   box-sizing: border-box;
+}
+
+/* Responsivo para telas menores, como celulares */
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column; /* Alinha conteúdo em coluna para dispositivos móveis */
+  }
+
+  .main-content {
+    margin-left: 0; /* Remove margem esquerda para dispositivos móveis */
+    padding-top: 60px; /* Espaço para header fixo ou conteúdo superior */
+    min-height: calc(100vh - 60px); /* Ajuste dinâmico da altura */
+  }
 }

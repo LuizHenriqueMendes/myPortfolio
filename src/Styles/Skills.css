@@ -1,21 +1,36 @@
-/* Skills.css */
 .skills-container {
-    padding: 20px 10px; /* Ajusta o espaçamento ao redor do conteúdo */
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .skills-title {
-    font-size: 2rem;
-    color: #5d4037;
-    margin-bottom: 20px;
-  }
-  
-/* Skills.css */
+  padding: 20px 10px; /* Ajusta o espaçamento ao redor do conteúdo */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 2rem;
+  color: #5d4037;
+  margin-bottom: 20px;
+}
+
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste automático conforme o espaço */
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste automático conforme o espaço */
+  gap: 20px;
+}
+
+/* Responsivo para telas menores, como celulares */
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 15px 5px; /* Reduz o padding em telas menores */
+    max-width: 90%; /* Ajusta a largura para caber melhor na tela */
   }
-  
+
+  .skills-title {
+    font-size: 1.5rem; /* Reduz o tamanho do título */
+    margin-bottom: 15px; /* Reduz o espaçamento inferior */
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajuste para exibir mais colunas em telas pequenas */
+    gap: 15px; /* Reduz o espaçamento entre os itens */
+  }
+}

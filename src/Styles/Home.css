@@ -1,36 +1,53 @@
 .home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f9f4ef;
-    padding-top: 80px; /* Espaço entre o header fixo */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f4ef;
+  padding-top: 80px; /* Espaço entre o header fixo */
+}
+
+.welcome-text {
+  font-size: 2rem;
+  color: #5d4037;
+  margin: 20px 0 10px 0; /* Reduzido o espaço inferior */
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #5d4037;
+  padding: 10px; /* Reduzido o padding para aproximar do topo */
+}
+
+.home-about {
+  background-color: #5d4037;
+  color: #f9f4ef;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 800px;
+  margin-top: 10px; /* Reduzido o espaço superior */
+  text-align: justify;
+}
+
+/* Responsivo para telas menores, como celulares */
+@media (max-width: 768px) {
   .welcome-text {
-    font-size: 2rem;
-    color: #5d4037;
-    margin: 20px 0 10px 0; /* Reduzido o espaço inferior */
+    font-size: 1.5rem; /* Reduz tamanho da fonte no celular */
   }
-  
+
   .home-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 1.5rem;
-    text-align: center;
-    color: #5d4037;
-    padding: 10px; /* Reduzido o padding para aproximar do topo */
+    font-size: 1.2rem; /* Reduz tamanho da fonte no celular */
+    padding: 5px; /* Menor padding para economizar espaço */
   }
-  
+
   .home-about {
-    background-color: #5d4037;
-    color: #f9f4ef;
-    border-radius: 20px;
-    padding: 20px;
-    max-width: 800px;
-    margin-top: 10px; /* Reduzido o espaço superior */
-    text-align: justify;
+    padding: 15px; /* Reduz padding interno no celular */
+    max-width: 90%; /* Ajusta largura para caber melhor na tela */
+    font-size: 1rem; /* Reduz tamanho da fonte para melhorar leitura */
   }
-  
+}

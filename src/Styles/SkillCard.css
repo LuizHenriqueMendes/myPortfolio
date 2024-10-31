@@ -1,25 +1,39 @@
-/* SkillCard.css */
 .skill-card {
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skill-title {
+  font-size: 1.2rem;
+  color: #5d4037;
+  margin-bottom: 10px;
+}
+
+.skill-description {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Responsivo para telas menores, como celulares */
+@media (max-width: 768px) {
+  .skill-card {
+    padding: 10px; /* Reduz o padding para ocupar menos espaço em telas pequenas */
   }
-  
-  .skill-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  }
-  
+
   .skill-title {
-    font-size: 1.2rem;
-    color: #5d4037;
-    margin-bottom: 10px;
+    font-size: 1rem; /* Reduz o tamanho do título em dispositivos móveis */
+    margin-bottom: 8px; /* Reduz o espaçamento inferior */
   }
-  
+
   .skill-description {
-    font-size: 1rem;
-    color: #333;
+    font-size: 0.9rem; /* Reduz o tamanho da fonte da descrição */
   }
-  
+}

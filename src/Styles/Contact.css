@@ -1,59 +1,87 @@
-/* Contact.css */
 .contact-container {
-    padding: 20px;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 40px;
-    background-color: #f9f4ef;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #f9f4ef;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #5d4037;
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.contact-item:hover {
+  background-color: #ececec;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.contact-info {
+  flex-grow: 1;
+  font-size: 1.2rem;
+  color: #5d4037;
+}
+
+/* Responsivo para telas menores, como celulares */
+@media (max-width: 768px) {
+  .contact-container {
+    max-width: 90%; /* Ajusta largura para caber melhor em telas pequenas */
+    padding: 15px; /* Reduz o padding em telas menores */
   }
-  
+
   .contact-title {
-    text-align: center;
-    font-size: 2rem;
-    color: #5d4037;
-    margin-bottom: 20px;
+    font-size: 1.5rem; /* Reduz o tamanho do título */
   }
-  
+
   .contact-item {
-    display: flex;
+    flex-direction: column; /* Coloca os ícones e texto em coluna para melhor exibição */
     align-items: center;
-    padding: 15px 20px;
-    margin-bottom: 15px;
-    background-color: #ffffff;
-    border-radius: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    color: #333;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+    padding: 10px 15px; /* Reduz o padding para caber melhor na tela */
+    margin-bottom: 10px; /* Reduz o espaçamento entre os itens */
+    text-align: center;
   }
-  
-  .contact-item:hover {
-    background-color: #ececec;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-  }
-  
+
   .contact-icon {
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 0 10px 0; /* Remove o espaçamento lateral e adiciona espaçamento inferior */
+    width: 40px;
+    height: 40px; /* Reduz o tamanho do ícone em telas menores */
   }
-  
-  .contact-icon img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
-  
+
   .contact-info {
-    flex-grow: 1;
-    font-size: 1.2rem;
-    color: #5d4037;
+    font-size: 1rem; /* Reduz o tamanho do texto */
   }
-  
+}
