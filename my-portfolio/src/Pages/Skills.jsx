@@ -16,7 +16,10 @@ function Skills() {
     { id: 9, title: "C, C++", description: "Conhecimentos de programção em C e C++." },
     { id: 10, title: "Pacote Office", description: "Conhecimento em Excel, Word, PowerPoint." },
     { id: 11, title: "Redes", description: "Funcionameto de redes, servidores, rack's, switch etc." },
-    { id: 12, title: "Manutenção", description: "Montagem, conserto e manutenção de Desktops e Notebooks" }
+    { id: 12, title: "Manutenção", description: "Montagem, conserto e manutenção de Desktops e Notebooks" },
+    { id: 13, title: "Inglês", description: "" },
+    { id: 14, title: "Espanhol", description: "" },
+    { id: 15, title: "Francês", description: "" }
     
   ];
   

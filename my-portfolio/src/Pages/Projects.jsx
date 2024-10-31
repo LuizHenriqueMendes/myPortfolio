@@ -27,41 +27,41 @@ function Projects() {
       </div>
       
       <div className="project-item">
-        <h2 className="project-name">GalaxyShooter</h2>
-        <p className="project-description">
-          Jogo desenvolvido em um curso da Udemy, utilizando Unity e C#.
-        </p>
-        <div className="project-video">
-        <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/watch?v=bmW1rsmt2Nc"
-            title="Video do Projeto 2"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
+  <h2 className="project-name">GalaxyShooter</h2>
+  <p className="project-description">
+    Jogo desenvolvido em um curso da Udemy, utilizando Unity e C#.
+  </p>
+  <div className="project-video">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/bmW1rsmt2Nc"  // Link corrigido
+      title="Video do Projeto GalaxyShooter"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
     
-      <div className="project-item">
-        <h2 className="project-name">RunDuckRun</h2>
-        <p className="project-description">
-          Jogo de plataforma que desenvolvi adaptando os conhecimentos adquiridos sobre programação
-          de jogos e na faculdade.
-        </p>
-        <div className="project-video">
-        <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/JUmYUTVwp9g"
-            title="Video do Projeto 2"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
+<div className="project-item">
+  <h2 className="project-name">RunDuckRun</h2>
+  <p className="project-description">
+    Jogo de plataforma que desenvolvi adaptando os conhecimentos adquiridos sobre programação
+    de jogos e na faculdade.
+  </p>
+  <div className="project-video">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/JUmYUTVwp9g"  // Link corrigido
+      title="Video do Projeto RunDuckRun"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
 
     </div>
   );

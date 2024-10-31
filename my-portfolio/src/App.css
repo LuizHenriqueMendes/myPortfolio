@@ -4,8 +4,8 @@
 }
 
 .main-content {
+  margin-top: -20px;
   margin-left: 250px; /* Largura da sidebar */
-
   flex-grow: 1;
   background-color: #f9f4ef;
   min-height: 100vh;
