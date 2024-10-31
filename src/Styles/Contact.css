@@ -61,7 +61,7 @@
   .contact-container {
     max-width: 80%; /* Ajusta largura para caber melhor em telas pequenas */
     padding: 15px;
-    margin-left: 102px; /* Reduz o padding em telas menores */
+    margin-left: 80px; /* Reduz o padding em telas menores */
   }
 
   .contact-title {

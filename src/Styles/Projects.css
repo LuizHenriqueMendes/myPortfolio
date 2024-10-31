@@ -40,7 +40,7 @@
   .projects-container {
     padding: 15px; /* Reduz o padding para ocupar menos espaço */
     max-width: 80%; 
-    margin-left: 95px;/* Ajusta a largura para caber melhor em telas menores */
+    margin-left: 90px;/* Ajusta a largura para caber melhor em telas menores */
   }
 
   .projects-title {

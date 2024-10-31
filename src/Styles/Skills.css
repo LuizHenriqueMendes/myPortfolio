@@ -22,7 +22,7 @@
   .skills-container {
     padding: 15px 5px; /* Reduz o padding em telas menores */
     max-width: 80%; 
-    margin-left: 105px;/* Ajusta a largura para caber melhor na tela */
+    margin-left: 80px;/* Ajusta a largura para caber melhor na tela */
   }
 
   .skills-title {

@@ -49,7 +49,7 @@
   .home-about {
 
     padding: 15px; /* Reduz padding interno no celular */
-    max-width: 60%; /* Ajusta largura para caber melhor na tela */
+    max-width: 80%; /* Ajusta largura para caber melhor na tela */
     font-size: 1rem; /* Reduz tamanho da fonte para melhorar leitura */
   }
 
