@@ -59,8 +59,9 @@
 /* Responsivo para telas menores, como celulares */
 @media (max-width: 768px) {
   .contact-container {
-    max-width: 90%; /* Ajusta largura para caber melhor em telas pequenas */
-    padding: 15px; /* Reduz o padding em telas menores */
+    max-width: 80%; /* Ajusta largura para caber melhor em telas pequenas */
+    padding: 15px;
+    margin-left: 102px; /* Reduz o padding em telas menores */
   }
 
   .contact-title {
