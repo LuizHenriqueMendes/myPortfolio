@@ -6,26 +6,6 @@ function Projects() {
   return (
     <div className="projects-container">
       <h1 className="projects-title">Meus Projetos</h1>
-      
-      <div className="project-item">
-        <h2 className="project-name">Scoutball</h2>
-        <p className="project-description">
-          Este projeto foi criado para a matéria de Programação de Software para Web, utilizando 
-          React e Javascript. Fizemos um site que integra uma API que informa diversas informações sobre jogadores
-          de diversos campeonatos diferentes, tanto do Brasil quanto de outros países. 
-        </p>
-        <div className="project-video">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/VIDEO_ID"
-            title="Video do Projeto 1"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
 
       <div className="project-item">
         <h2 className="project-name">Wow!</h2>
@@ -37,7 +17,7 @@ function Projects() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/VIDEO_ID"
+            src="https://www.youtube.com/embed/3cMylpkWKCc"
             title="Video do Projeto 2"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -45,17 +25,17 @@ function Projects() {
           ></iframe>
         </div>
       </div>
-
+      
       <div className="project-item">
         <h2 className="project-name">GalaxyShooter</h2>
         <p className="project-description">
           Jogo desenvolvido em um curso da Udemy, utilizando Unity e C#.
         </p>
         <div className="project-video">
-          <iframe
+        <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/VIDEO_ID"
+            src="https://www.youtube.com/watch?v=bmW1rsmt2Nc"
             title="Video do Projeto 2"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -71,10 +51,10 @@ function Projects() {
           de jogos e na faculdade.
         </p>
         <div className="project-video">
-          <iframe
+        <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/VIDEO_ID"
+            src="https://www.youtube.com/JUmYUTVwp9g"
             title="Video do Projeto 2"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -4,13 +4,14 @@ import logoEMAIL from '../Images/logo-mail.png';
 import logoPHONE from '../Images/logo-phone.png';
 import logoLINK from '../Images/logo-linkedin.png';
 import logoGIT from '../Images/logo-github.png';
+import logoITCH from '../Images/logo-itch.png';
 
 import '../Styles/Contact.css';
 
 function Contact() {
   return (
     <div className="contact-container">
-      <h1 className="contact-title">Entre em Contato Comigo</h1>
+      <h1 className="contact-title">Entre em contato comigo</h1>
       
       <a href="mailto:luiz.mendescastro@gmail.com" className="contact-item" target="_blank" rel="noopener noreferrer">
         <div className="contact-icon">
@@ -47,6 +48,16 @@ function Contact() {
           <p>GitHub: https://github.com/LuizHenriqueMendes</p>
         </div>
       </a>
+
+      <a href="https://feixedeluz.itch.io" className="contact-item" target="_blank" rel="noopener noreferrer">
+        <div className="contact-icon">
+          <img src={logoITCH} alt="GitHub" />
+        </div>
+        <div className="contact-info">
+          <p>Itch.io: https://feixedeluz.itch.io</p>
+        </div>
+      </a>
+
     </div>
   );
 }

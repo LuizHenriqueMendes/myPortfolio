@@ -93,7 +93,7 @@ function Timeline() {
             <img src={logoCEFET} alt="Evento 2" />
           </div>
           <div className="timeline-text">
-            <h3>Realizei uma atividade de Pesquisa</h3>
+            <h3>Atividade de Pesquisa</h3>
             <p>Ajudei uma professora na tarefa de traduzir aproximadamente 1500 frases da Língua Portuguesa para Língua Inglesa, 
               sem a utilização de softwares de tradução, utilizando apenas meus conhecimentos em ambas as línguas.</p>
           </div>
@@ -109,7 +109,7 @@ function Timeline() {
           <div className="timeline-text">
           <h3>Entrei para a Enactus CEFET/RJ</h3>
             <p>Escolhi uma extensão do CEFET que teria algo extra-curricular que não fosse exatamente ligado ao meu curso. Fui membro do Departamento Administrativo Financeiro da Enactus
-              e representante do projeto Odoyá por alguns meses. Era responsável por contatar parceiros e administrar o dinheiro que o projeto tinha para bancar os trabalhos voluntários.</p>
+              e representante financeiro do projeto Odoyá por alguns meses. Era responsável por prospectar parceiros e administrar o dinheiro que o projeto tinha para bancar os trabalhos voluntários.</p>
           </div>
         </div>
       </div>
@@ -164,7 +164,7 @@ function Timeline() {
           <div className="timeline-text">
             <h3>Atividade de Pesquisa</h3>
             <p>Iniciei uma Pesquisa com um professor e uma colega sobre predição de atrasos aéreos. 
-              Manipulamos dados e programamos em R para fazer previsão desses dados.</p>
+              Manipulamos dados e programamos em R para fazer previsão dos mesmos.</p>
           </div>
         </div>
       </div>
