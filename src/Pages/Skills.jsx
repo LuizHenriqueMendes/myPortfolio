@@ -1,32 +1,32 @@
-// Skills.js
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import SkillCard from '../Components/SkillCard';
 import '../Styles/Skills.css';
 
 function Skills() {
+  const { t } = useTranslation();
+
   const skills = [
-    { id: 1, title: "JavaScript", description: "Experiência com React, Node.js e utilização em backend" },
-    { id: 2, title: "HTML & CSS", description: "Desenvolvimento web responsivo." },
-    { id: 3, title: "React", description: "Desenvolvimento de interfaces dinâmicas e componentes" },
-    { id: 4, title: "Python", description: "Conhecimento básico de Python." },
-    { id: 5, title: "Git & GitHub", description: "Controle de versão e colaboração em projetos" },
-    { id: 6, title: "SQL", description: "Consultas e manipulação de bancos de dados" },
-    { id: 7, title: "C#", description: "Desenvolvimento de jogos" },
-    { id: 8, title: "R", description: "Manipulação de dados, treinamento e previsão de dados." },
-    { id: 9, title: "C, C++", description: "Conhecimentos de programção em C e C++." },
-    { id: 10, title: "Pacote Office", description: "Conhecimento em Excel, Word, PowerPoint." },
-    { id: 11, title: "Redes", description: "Funcionameto de redes, servidores, rack's, switch etc." },
-    { id: 12, title: "Manutenção", description: "Montagem, conserto e manutenção de Desktops e Notebooks" },
-    { id: 13, title: "Inglês", description: "" },
-    { id: 14, title: "Espanhol", description: "" },
-    { id: 15, title: "Francês", description: "" }
-    
+    { id: 1, title: t('skill1Title'), description: t('skill1') },
+    { id: 2, title: t('skill2Title'), description: t('skill2') },
+    { id: 3, title: t('skill3Title'), description: t('skill3') },
+    { id: 4, title: t('skill4Title'), description: t('skill4') },
+    { id: 5, title: t('skill5Title'), description: t('skill5') },
+    { id: 6, title: t('skill6Title'), description: t('skill6') },
+    { id: 7, title: t('skill7Title'), description: t('skill7') },
+    { id: 8, title: t('skill8Title'), description: t('skill8') },
+    { id: 9, title: t('skill9Title'), description: t('skill9') },
+    { id: 10, title: t('skill10Title'), description: t('skill10') },
+    { id: 11, title: t('skill11Title'), description: t('skill11') },
+    { id: 12, title: t('skill12Title'), description: t('skill12') },
+    { id: 13, title: t('skill13Title'),  },
+    { id: 14, title: t('skill14Title'),  },
+    { id: 15, title: t('skill15Title'),  },
   ];
-  
 
   return (
     <div className="skills-container">
-      <h1 className="skills-title">Minhas Habilidades</h1>
+      <h1 className="skills-title">{t('skillsTitle')}</h1>
       <div className="skills-grid">
         {skills.map((skill) => (
           <SkillCard key={skill.id} title={skill.title} description={skill.description} />

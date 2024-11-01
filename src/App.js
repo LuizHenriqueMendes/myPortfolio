@@ -7,6 +7,7 @@ import About from './Pages/About';
 import Skills from './Pages/Skills';
 import Sidebar from './Components/Sidebar';
 import './App.css';
+import './i18.jsx';
 
 function App() {
   return (

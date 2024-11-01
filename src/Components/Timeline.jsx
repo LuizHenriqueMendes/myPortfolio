@@ -8,9 +8,12 @@ import logoEN from '../Images/logo-enactus.png';
 import logoCEN from '../Images/logo-centauro.png';
 import logoCUL from '../Images/logo-cultura.png';
 import logoALI from '../Images/logo-alianca.png';
+import { useTranslation } from 'react-i18next';
 
 
 function Timeline() {
+  const { t } = useTranslation();
+
   return (
     <div className="timeline">
 
@@ -21,8 +24,8 @@ function Timeline() {
             <img src={logoCUL} alt="Evento 1" />
           </div>
           <div className="timeline-text">
-            <h3>Cultura Inglesa</h3>
-            <p>Após fazer Cultura Inglesa desde os 11 anos, finalizei o curso, com alguns exames de Cambridge. </p>
+            <h3>{t('about1Title')}</h3>
+            <p>{t('about1')}</p>
           </div>
         </div>
       </div>
@@ -34,9 +37,8 @@ function Timeline() {
             <img src={logoUN} alt="Evento 1" />
           </div>
           <div className="timeline-text">
-            <h3>Primeiro Curso de programação</h3>
-            <p>Decidi experimentar e ver como é a criação e o desenvolvimento de jogos, 
-              então conheci a Unity e os básicos da programação, tendo como primeira linguagem C#. </p>
+            <h3>{t('about2Title')}</h3>
+            <p>{t('about2')}</p>
           </div>
         </div>
       </div>
@@ -48,10 +50,8 @@ function Timeline() {
             <img src={logoCSI} alt="Evento 1" />
           </div>
           <div className="timeline-text">
-            <h3>Formatura de Ensino Médio no Colégio Santo Inácio</h3>
-            <p>Entrei no Santo Inácio em 2008, onde estudei durante 13 anos. 
-                Ao longo desse tempo, tive um ótimo desempenho escolar, fiz viagens com a 
-                escola e trabalhos voluntários.
+            <h3>{t('about3Title')}</h3>
+            <p>{t('about3')}
                  </p>
           </div>
         </div>
@@ -64,9 +64,8 @@ function Timeline() {
             <img src={logoPUC} alt="Evento 2" />
           </div>
           <div className="timeline-text">
-            <h3>PUC-Rio</h3>
-            <p>Em 2021 fui aprovado na PUC-Rio no curso de Ciência da Computação,
-            aonde completei o primeiro período da faculdade.</p>
+            <h3>{t('about14Title')}</h3>
+            <p>{t('about4')}</p>
           </div>
         </div>
       </div>
@@ -78,10 +77,8 @@ function Timeline() {
             <img src={logoCEFET} alt="Evento 2" />
           </div>
           <div className="timeline-text">
-            <h3>CEFET/RJ</h3>
-            <p>Mesmo fazendo curso na PUC, fui aprovado para o CEFET, 
-            então optei por trancar minha matrícula na PUC e dar início ao curso
-            de Ciência da Computação no CEFET/RJ.</p>
+            <h3>{t('about5Title')}</h3>
+            <p>{t('about5')}</p>
           </div>
         </div>
       </div>
@@ -93,9 +90,8 @@ function Timeline() {
             <img src={logoCEFET} alt="Evento 2" />
           </div>
           <div className="timeline-text">
-            <h3>Atividade de Pesquisa</h3>
-            <p>Ajudei uma professora na tarefa de traduzir aproximadamente 1500 frases da Língua Portuguesa para Língua Inglesa, 
-              sem a utilização de softwares de tradução, utilizando apenas meus conhecimentos em ambas as línguas.</p>
+            <h3>{t('about6Title')}</h3>
+            <p>{t('about6')}</p>
           </div>
         </div>
       </div>
@@ -107,9 +103,8 @@ function Timeline() {
             <img src={logoEN} alt="Evento 2" />
           </div>
           <div className="timeline-text">
-          <h3>Enactus CEFET/RJ</h3>
-            <p>Escolhi uma extensão do CEFET que teria algo extra-curricular que não fosse exatamente ligado ao meu curso. Fui membro do Departamento Administrativo Financeiro da Enactus
-              e representante financeiro do projeto Odoyá por alguns meses. Era responsável por prospectar parceiros e administrar o dinheiro que o projeto tinha para bancar os trabalhos voluntários.</p>
+          <h3>{t('about7Title')}</h3>
+            <p>{t('about7')}</p>
           </div>
         </div>
       </div>
@@ -121,8 +116,8 @@ function Timeline() {
             <img src={logoALI} alt="Evento 2" />
           </div>
           <div className="timeline-text">
-          <h3>Aliança Francesa</h3>
-            <p>Com o objetivo de aprender uma língua nova, entrei para o curso da Aliança Francesa.</p>
+          <h3>{t('about8Title')}</h3>
+            <p>{t('about8')}</p>
           </div>
         </div>
       </div>
@@ -134,9 +129,8 @@ function Timeline() {
             <img src={logoCEN} alt="Evento 2" />
           </div>
           <div className="timeline-text">
-            <h3>Centauro Engenharia Telecom</h3>
-            <p>Fui contratado como Estagiário de T.I. pela Centauro Engenharia, aonde faço diversas atividades, principalmente como desenvolvedor
-              do Portal da empresa, em PHP, HTML, CSS, JavaScript e MySQL. </p>
+            <h3>{t('about9Title')}</h3>
+            <p>{t('about9')}</p>
           </div>
         </div>
       </div>
@@ -148,9 +142,8 @@ function Timeline() {
             <img src={logoEN} alt="Evento 2" />
           </div>
           <div className="timeline-text">
-            <h3>Enactus CEFET/RJ</h3>
-            <p>Estava me sentindo sobrecarregado com a faculdade, o Estágio novo e a Enactus, então optei por me desligar da Enactus para 
-              conseguir me recompor. </p>
+            <h3>{t('about10Title')}</h3>
+            <p>{t('about10')}</p>
           </div>
         </div>
       </div>
@@ -162,9 +155,8 @@ function Timeline() {
             <img src={logoCEFET} alt="Evento 2" />
           </div>
           <div className="timeline-text">
-            <h3>Atividade de Pesquisa</h3>
-            <p>Iniciei uma Pesquisa com um professor e uma colega sobre predição de atrasos aéreos. 
-              Manipulamos dados e programamos em R para fazer previsão dos mesmos.</p>
+            <h3>{t('about11Title')}</h3>
+            <p>{t('about11')}</p>
           </div>
         </div>
       </div>

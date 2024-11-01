@@ -1,30 +1,22 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import '../Styles/Home.css';
 
-
-
 function Home() {
+  
+  const { t } = useTranslation();
+
   return (
-    
-    <div className="home-container">  
-      <h1 className="welcome-text">Bem-vindo(a)!</h1>
+    <div className="home-container">
+      <h1 className="welcome-text">{t('welcome')}</h1>
       <div className="home-content">
         <div className="home-about">
-          <p>Eu me chamo Luiz Henrique Mendes e tenho 21 anos. Atualmente estudo 
-          Ciência da Computação no CEFET-RJ e estou em busca de um estágio!</p>
-      
-          <p>Desde pequeno gostei de jogar video-game, por isso um dia decidi 
-          tentar criar meu próprio jogo. Foi então que descobri a programação. 
-          Comecei a pesquisar mais sobre e encontrei o curso de Ciência da 
-          Computação, nele descobri mais e mais sobre o mundo da programação, 
-          e como ela está presente em quase tudo.</p>
-
-          <p>Hoje em dia sou Estagiário de T.I. na empresa Centauro Engenharia 
-          há 1 ano, mas estou em busca de um novo emprego para evoluir minhas 
-          habilidades em outras partes desta profissão.</p>
+          <p>{t('description1')}</p>
+          <p>{t('description2')}</p>
+          <p>{t('description3')}</p>
         </div>
         <div className="home-curriculo">
-          <a href="../public/Luiz_Henrique_Mendes_Currículo.pdf" download>Baixe meu currículo</a>
+          <a href="/Luiz_Henrique_Mendes_Currículo.pdf" download>{t('curriculum')}</a>
         </div>
       </div>
     </div>

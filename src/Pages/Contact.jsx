@@ -1,5 +1,6 @@
 // Contact.js
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import logoEMAIL from '../Images/logo-mail.png';
 import logoPHONE from '../Images/logo-phone.png';
 import logoLINK from '../Images/logo-linkedin.png';
@@ -9,6 +10,7 @@ import logoITCH from '../Images/logo-itch.png';
 import '../Styles/Contact.css';
 
 function Contact() {
+  const { t } = useTranslation();
   return (
     <div className="contact-container">
       <h1 className="contact-title">Entre em contato comigo</h1>
@@ -18,7 +20,7 @@ function Contact() {
           <img src={logoEMAIL} alt="Email" />
         </div>
         <div className="contact-info">
-          <p>Email: luiz.mendescastro@gmail.com</p>
+          <p>{t('contact1')}</p>
         </div>
       </a>
 
@@ -27,7 +29,7 @@ function Contact() {
           <img src={logoPHONE} alt="Telefone" />
         </div>
         <div className="contact-info">
-          <p>Telefone: (21) 99955-3329</p>
+          <p>{t('contact2')}</p>
         </div>
       </a>
 
@@ -36,7 +38,7 @@ function Contact() {
           <img src={logoLINK} alt="LinkedIn" />
         </div>
         <div className="contact-info">
-          <p>LinkedIn: www.linkedin.com/in/luiz-mendes-161724214</p>
+          <p>{t('contact3')}</p>
         </div>
       </a>
 
@@ -45,7 +47,7 @@ function Contact() {
           <img src={logoGIT} alt="GitHub" />
         </div>
         <div className="contact-info">
-          <p>GitHub: https://github.com/LuizHenriqueMendes</p>
+          <p>{t('contact1')}</p>
         </div>
       </a>
 
@@ -54,7 +56,7 @@ function Contact() {
           <img src={logoITCH} alt="GitHub" />
         </div>
         <div className="contact-info">
-          <p>Itch.io: https://feixedeluz.itch.io</p>
+          <p>{t('contact1')}</p>
         </div>
       </a>
 

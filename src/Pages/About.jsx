@@ -1,8 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Timeline from '../Components/Timeline';
 import '../Styles/About.css'
 
 function About() {
+  const { t } = useTranslation();
   return (
 
     <div>

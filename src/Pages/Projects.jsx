@@ -1,18 +1,19 @@
 // Projects.js
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import '../Styles/Projects.css';
 
 function Projects() {
+  const { t } = useTranslation();
   return (
     <div className="projects-container">
-      <h1 className="projects-title">Meus Projetos</h1>
+      <h1 className="projects-title">{t('projectsTitle')}</h1>
 
       <div className="project-item">
-        <h2 className="project-name">Wow!</h2>
+        <h2 className="project-name">{t('project1Title')}</h2>
         <p className="project-description">
-        Projeto desenvolvido para a disciplina Arquitetura e Padrões de Software, aonde foi criada uma rede social,
-        na qual o usuário pode postar, curtir, comentar e ver postagens de outros usuários.
-        </p>
+        {t('project1')}
+       </p>
         <div className="project-video">
           <iframe
             width="560"
@@ -27,9 +28,9 @@ function Projects() {
       </div>
       
       <div className="project-item">
-  <h2 className="project-name">GalaxyShooter</h2>
+  <h2 className="project-name">{t('project2Title')}</h2>
   <p className="project-description">
-    Jogo desenvolvido em um curso da Udemy, utilizando Unity e C#.
+  {t('project2')}
   </p>
   <div className="project-video">
     <iframe
@@ -45,10 +46,9 @@ function Projects() {
 </div>
     
 <div className="project-item">
-  <h2 className="project-name">RunDuckRun</h2>
+  <h2 className="project-name">{t('project3Title')}</h2>
   <p className="project-description">
-    Jogo de plataforma que desenvolvi adaptando os conhecimentos adquiridos sobre programação
-    de jogos e na faculdade.
+  {t('project3')}
   </p>
   <div className="project-video">
     <iframe
