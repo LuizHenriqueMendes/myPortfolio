@@ -1,6 +1,8 @@
 import React from 'react';
 import '../Styles/Home.css';
 
+
+
 function Home() {
   return (
     
@@ -20,6 +22,9 @@ function Home() {
           <p>Hoje em dia sou Estagiário de T.I. na empresa Centauro Engenharia 
           há 1 ano, mas estou em busca de um novo emprego para evoluir minhas 
           habilidades em outras partes desta profissão.</p>
+        </div>
+        <div className="home-curriculo">
+          <a href="../public/Luiz_Henrique_Mendes_Currículo.pdf" download>Baixe meu currículo</a>
         </div>
       </div>
     </div>

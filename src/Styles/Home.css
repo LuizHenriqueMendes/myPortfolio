@@ -34,6 +34,22 @@
   text-align: justify;
 }
 
+.home-curriculo a {
+  color: #5d4037;
+  text-decoration: none; /* Remove o sublinhado */
+  border: 2px solid #9e6f61;
+  background-color: #f7ebdf;
+  border-radius: 10px; 
+  padding: 10px;
+}
+
+.home-curriculo a:hover{
+  color: #f7ebdf;
+  background-color: #9e6f61;
+  cursor: pointer;
+}
+
+
 /* Responsivo para telas menores, como celulares */
 @media (max-width: 768px) {
   .welcome-text {
