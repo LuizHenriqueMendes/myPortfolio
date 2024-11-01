@@ -47,7 +47,7 @@ function Contact() {
           <img src={logoGIT} alt="GitHub" />
         </div>
         <div className="contact-info">
-          <p>{t('contact1')}</p>
+          <p>{t('contact4')}</p>
         </div>
       </a>
 
@@ -56,7 +56,7 @@ function Contact() {
           <img src={logoITCH} alt="GitHub" />
         </div>
         <div className="contact-info">
-          <p>{t('contact1')}</p>
+          <p>{t('contact5')}</p>
         </div>
       </a>
 

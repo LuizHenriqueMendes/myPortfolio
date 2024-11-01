@@ -55,15 +55,21 @@
 
 .language-toggle{
   margin-bottom: 20px; 
- 
+  border:none;
+  box-shadow: 3px 3px 5px #362b27;
+  
 }
 
 .language-toggle button:hover{
   cursor: pointer; 
-  background-color: #140f01;
+  background-color: #af7d54;
+  
 }
 
 .btn-language{
+  padding-top: 4px; 
+  padding-bottom: 4px; 
+  border:none;
   background-color: #cfb3aa;
 }
 
