@@ -44,6 +44,11 @@
   box-sizing: border-box;
 }
 
+
+.language-toggle{
+  margin-bottom: 20px; 
+}
+
 .sidebar-nav a:hover {
   background-color: #140f01; /* Azul petróleo para destaque */
   color: #ffffff;

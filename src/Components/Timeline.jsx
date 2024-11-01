@@ -64,7 +64,7 @@ function Timeline() {
             <img src={logoPUC} alt="Evento 2" />
           </div>
           <div className="timeline-text">
-            <h3>{t('about14Title')}</h3>
+            <h3>{t('about4Title')}</h3>
             <p>{t('about4')}</p>
           </div>
         </div>
