@@ -44,14 +44,33 @@
   box-sizing: border-box;
 }
 
+.logoBR{
+  width: 30px;
+  
+}
+
+.logoEUA{
+  width: 30px;
+}
 
 .language-toggle{
   margin-bottom: 20px; 
+ 
+}
+
+.language-toggle button:hover{
+  cursor: pointer; 
+  background-color: #140f01;
+}
+
+.btn-language{
+  background-color: #cfb3aa;
 }
 
 .sidebar-nav a:hover {
   background-color: #140f01; /* Azul petróleo para destaque */
   color: #ffffff;
+
 }
 
 /* Responsivo para telas menores */

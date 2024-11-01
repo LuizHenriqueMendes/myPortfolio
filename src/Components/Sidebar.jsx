@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logoBR from '../Images/logo-br.png';
+import logoEUA from '../Images/logo-eua.png';
 import { useTranslation } from 'react-i18next';
 import '../Styles/Sidebar.css';
 
@@ -21,8 +23,8 @@ function Sidebar() {
         <Link to="/contact">{t('contact')}</Link>
       </nav>
       <div className="language-toggle">
-        <button onClick={() => changeLanguage('pt')}>PT</button>
-        <button onClick={() => changeLanguage('en')}>EN</button>
+        <button className="btn-language" onClick={() => changeLanguage('pt')}><img className="logoBR" src={logoBR} /></button>
+        <button className="btn-language" onClick={() => changeLanguage('en')}><img className="logoEUA" src={logoEUA} /></button>
       </div>
     </div>
   );
