@@ -107,7 +107,7 @@
   .sidebar-nav a {
     font-size: 0.8rem; /* Reduz o tamanho da fonte */
     padding: 8px 10px; /* Menos padding */
-    text-align: center; /* Centraliza o texto dos botões */
+    text-align: left; /* Centraliza o texto dos botões */
     width: 100%; /* Cada botão ocupa a largura total da sidebar */
   }
 
