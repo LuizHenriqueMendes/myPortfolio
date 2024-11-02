@@ -23,8 +23,8 @@ function Sidebar() {
         <Link to="/contact">{t('contact')}</Link>
       </nav>
       <div className="language-toggle">
-        <button className="btn-language" onClick={() => changeLanguage('pt')}><img className="logoBR" src={logoBR} /></button>
-        <button className="btn-language" onClick={() => changeLanguage('en')}><img className="logoEUA" src={logoEUA} /></button>
+        <button className="btn-language" onClick={() => changeLanguage('pt')}><img className="logoBR" src={logoBR} alt="BR Flag"/></button>
+        <button className="btn-language" onClick={() => changeLanguage('en')}><img className="logoEUA" src={logoEUA} alt="EUA Flag"/></button>
       </div>
     </div>
   );

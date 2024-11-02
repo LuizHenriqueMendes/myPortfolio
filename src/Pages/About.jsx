@@ -9,7 +9,7 @@ function About() {
 
     <div>
         <div className="about-content">
-          <h1 className="about-title">Sobre Mim</h1>
+          <h1 className="about-title">{t('aboutTitle')}</h1>
           <div className="about-text">
           
           <Timeline />
