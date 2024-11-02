@@ -82,7 +82,7 @@
 /* Responsivo para telas menores */
 @media (max-width: 768px) {
   .sidebar {
-    width: 80px; /* Reduz a largura da sidebar */
+    width: 83px; /* Reduz a largura da sidebar */
     padding-top: 10px; /* Menos padding no topo */
     align-items: center;
   }
