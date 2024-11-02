@@ -95,8 +95,14 @@
   }
 
   .sidebar-nav {
+    
     gap: 15px; /* Reduz o espaço entre os botões */
   }
+
+  .sidebar-link{
+    text-align: left;
+  }
+
 
   .sidebar-nav a {
     font-size: 0.8rem; /* Reduz o tamanho da fonte */
@@ -104,4 +110,17 @@
     text-align: center; /* Centraliza o texto dos botões */
     width: 100%; /* Cada botão ocupa a largura total da sidebar */
   }
+
+  .language-toggle{
+    max-width: 50px;
+  }
+
+  .logoBR{
+    width: 30px;
+  }
+  
+  .logoEUA{
+    width: 30px;
+  }
+
 }
