@@ -33,6 +33,10 @@
     "about10": "I was feeling overwhelmed with college, the new internship, and Enactus, so I decided to leave Enactus to be able to get back on track.",
     "about11Title": "Research Activity",
     "about11": "I started a research project with a professor and a colleague on predicting flight delays. We manipulated data and programmed in R to make predictions.",
+    "about12Title": "Studio VS",
+    "about12":"Hired as an intern developer at the company Studio VS, working with PHP, JavaScript, HTML and CSS.",
+    "about13Title": "Complementary Activity",
+    "about13":"After finishing the research project, I had the opportunity to start developing a game with a few colleagues, using C# and Unity again.",
     "projectsTitle": "My Projects",
     "project1Title": "Wow!",
     "project1": "Project developed for the Software Architecture and Patterns course, where we created a social network that allows users to post, like, comment, and view posts from other users.",
@@ -71,7 +75,7 @@
     "contactTitle": "Would you like to contact me?",
     "contact1": "Email: luiz.mendescastro@gmail.com",
     "contact2": "Phone: +55 (21) 99955-3329",
-    "contact3": "LinkedIn: www.linkedin.com/in/luiz-mendes-161724214",
+    "contact3": "LinkedIn: www.linkedin.com/in/luiz-mendes-casro",
     "contact4": "GitHub: https://github.com/LuizHenriqueMendes",
     "contact5": "Itch.io: https://feixedeluz.itch.io"
 

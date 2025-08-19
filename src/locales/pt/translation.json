@@ -33,6 +33,10 @@
     "about10":"Estava me sentindo sobrecarregado com a faculdade, o Estágio novo e a Enactus, então optei por me desligar da Enactus para conseguir me recompor.",
     "about11Title": "Atividade de Pesquisa",
     "about11":"Iniciei uma Pesquisa com um professor e uma colega sobre predição de atrasos aéreos. Manipulamos dados e programamos em R para fazer previsão dos mesmos.",
+    "about12Title": "Studio VS",
+    "about12":"Fui contratado como estagiário de Desenvolvimento na empresa Studio VS, trabalhando com PHP, JavaScript, HTML e CSS.",
+    "about13Title": "Atividade Complementar",
+    "about13":"Após encerrar a atividade de pesquisa de atrasos aéreos, surgiu a oportunidade de desenvolver um jogo juntamente com alguns colegas e com um professor, utilizando novamente C# e Unity.",
     "projectsTitle": "Meus Projetos",
     "project1Title": "Wow!",
     "project1": "Projeto desenvolvido para a disciplina Arquitetura e Padrões de Software, aonde foi criada uma rede social, na qual o usuário pode postar, curtir, comentar e ver postagens de outros usuários.",
@@ -71,7 +75,7 @@
     "contactTitle": "Deseja entrar em contato comigo?",
     "contact1": "Email: luiz.mendescastro@gmail.com",
     "contact2": "Telefone: (21) 99955-3329",
-    "contact3": "LinkedIn: www.linkedin.com/in/luiz-mendes-161724214",
+    "contact3": "LinkedIn: www.linkedin.com/in/luiz-mendes-castro",
     "contact4": "GitHub: https://github.com/LuizHenriqueMendes",
     "contact5": "Itch.io: https://feixedeluz.itch.io"
 }

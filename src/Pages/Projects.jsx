@@ -36,7 +36,7 @@ function Projects() {
     <iframe
       width="560"
       height="315"
-      src="https://youtube.com/embed/bmW1rsmt2Nc"  // Link corrigido
+      src="https://youtube.com/embed/bmW1rsmt2Nc" 
       title="Video do Projeto GalaxyShooter"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -54,7 +54,7 @@ function Projects() {
     <iframe
       width="560"
       height="315"
-      src="https://youtube.com/embed/JUmYUTVwp9g?si=Ss4_AioLsjVcCpqQ"  // Link corrigido
+      src="https://www.youtube.com/embed/5FP5NXKclHs"  
       title="Video do Projeto RunDuckRun"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

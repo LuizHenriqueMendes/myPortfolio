@@ -8,6 +8,7 @@ import logoEN from '../Images/logo-enactus.png';
 import logoCEN from '../Images/logo-centauro.png';
 import logoCUL from '../Images/logo-cultura.png';
 import logoALI from '../Images/logo-alianca.png';
+import logoVS from '../Images/logo-vs.png';
 import { useTranslation } from 'react-i18next';
 
 
@@ -52,7 +53,7 @@ function Timeline() {
           <div className="timeline-text">
             <h3>{t('about3Title')}</h3>
             <p>{t('about3')}
-                 </p>
+                </p>
           </div>
         </div>
       </div>
@@ -157,6 +158,32 @@ function Timeline() {
           <div className="timeline-text">
             <h3>{t('about11Title')}</h3>
             <p>{t('about11')}</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="timeline-item">
+        <div className="timeline-year">02/2025</div>
+        <div className="timeline-content">
+          <div className="timeline-image">
+            <img src={logoVS} alt="Evento 2" />
+          </div>
+          <div className="timeline-text">
+            <h3>{t('about12Title')}</h3>
+            <p>{t('about12')}</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="timeline-item">
+        <div className="timeline-year">06/2025</div>
+        <div className="timeline-content">
+          <div className="timeline-image">
+            <img src={logoCEFET} alt="Evento 2" />
+          </div>
+          <div className="timeline-text">
+            <h3>{t('about13Title')}</h3>
+            <p>{t('about13')}</p>
           </div>
         </div>
       </div>
