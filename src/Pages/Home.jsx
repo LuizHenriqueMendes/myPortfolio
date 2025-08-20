@@ -16,8 +16,7 @@ function Home() {
           <p>{t('description3')}</p>
         </div>
         <div className="home-curriculo">
-          <a href="/LuizHenriqueMendes_CV.pdf" download>{t('curriculum')}</a>
-          <a href="/LuizHenriqueMendes_ENG_CV.pdf" download>{t('curriculum2')}</a>
+          <a href="/LuizHenriqueMendes_CV.pdf" download>{t('curriculum')}</a>          
         </div>
       </div>
     </div>
